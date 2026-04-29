@@ -59,33 +59,6 @@ npm run dev
 # → Running on http://localhost:5173
 ```
 
----
-
-## 📡 API Endpoints
-
-| Method | Endpoint | Description |
-|---|---|---|
-| GET | `/api/colleges` | List with search, filter, pagination |
-| GET | `/api/colleges/:id` | Single college detail |
-| GET | `/api/colleges/states` | All distinct states |
-| GET | `/api/colleges/compare?ids=id1,id2,id3` | Compare up to 3 colleges |
-| GET | `/api/colleges/predict?exam=JEE+Advanced&rank=2500` | Predict eligible colleges |
-| GET | `/api/health` | Health check |
-
-### Query Params for `/api/colleges`
-| Param | Type | Description |
-|---|---|---|
-| `search` | string | Search name or location |
-| `state` | string | Filter by state |
-| `minFees` | number | Minimum annual fees |
-| `maxFees` | number | Maximum annual fees |
-| `course` | string | Filter by course name |
-| `sortBy` | string | `nirfRank`, `rating`, `fees_asc`, `fees_desc` |
-| `page` | number | Page number (default: 1) |
-| `limit` | number | Results per page (default: 9) |
-
----
-
 ## 📁 Project Structure
 
 ```
