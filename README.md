@@ -2,6 +2,8 @@
 
 A production-grade MVP for discovering, comparing, and predicting college admissions across India.
 
+# Live Link - https://college-discovery-platform-beryl.vercel.app/
+
 ## ✅ Features Built
 
 | Feature | Description |
